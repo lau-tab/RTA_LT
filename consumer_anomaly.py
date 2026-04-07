@@ -30,6 +30,3 @@ for message in consumer:
 
     if len(user_timestamps[user_id]) > 3:
         print(f"ALERT: {user_id} | {len(user_timestamps[user_id])} transakcji w 60s")
-
-#Napisz konsumenta wykrywającego anomalie prędkości: alert jeśli ten sam user_id wykona więcej niż 3 transakcje w ciągu 60 sekund.
-#Wypchnij kod do repozytorium Git.
